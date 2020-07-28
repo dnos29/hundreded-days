@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "hundered-days"
+    }
+  },
+  "defaultProject": "hundered-days",
+  "cli": {
+    "analytics": false
+  }
 }

@@ -1,0 +1,9 @@
+.progress--bar-background{
+  height: 20px;
+  background-color: silver;
+}
+.progress--bar-loading{
+  height: 20px;
+  background-color: dodgerblue;
+  width: 0%;
+}
