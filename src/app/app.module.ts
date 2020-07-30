@@ -1,5 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { FormsModule } from '@angular/forms';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -8,6 +9,8 @@ import { SquareComponent } from './square/square.component';
 import { D8OuputBindingComponent } from './d8-ouput-binding/d8-ouput-binding.component';
 import { UserListComponent } from './users/user-list.component';
 import { UserItemComponent } from './users/user-item.component';
+import { D9TwowatBindingComponent } from './d9-twowat-binding/d9-twowat-binding.component';
+import { ToggleComponent } from './toggle.component';
 
 @NgModule({
   declarations: [
@@ -17,10 +20,13 @@ import { UserItemComponent } from './users/user-item.component';
     D8OuputBindingComponent,
     UserListComponent,
     UserItemComponent,
+    D9TwowatBindingComponent,
+    ToggleComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

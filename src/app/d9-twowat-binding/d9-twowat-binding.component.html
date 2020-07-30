@@ -1,0 +1,5 @@
+<p>d9-twowat-binding works! {{name}}</p>
+<!-- <input type="text" [(ngModel)]="name" id=""> -->
+<input type="text" [ngModel]="name" (ngModelChange)="name = $event">
+<!-- <app-toggle [(checked)]="isChecked"></app-toggle> -->
+<app-toggle [(amount)]="amount"></app-toggle>
