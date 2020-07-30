@@ -1,0 +1,5 @@
+<p>d10-view-child works!</p>
+<input #inputName type="text" value="name">
+<app-toggle #toggleComp [checked]="true"></app-toggle>
+<button #toggleButton (click)="toggleComp.onClick()">Toggle</button>
+{{toggleButton}}

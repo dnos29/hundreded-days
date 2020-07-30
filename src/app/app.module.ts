@@ -11,6 +11,7 @@ import { UserListComponent } from './users/user-list.component';
 import { UserItemComponent } from './users/user-item.component';
 import { D9TwowatBindingComponent } from './d9-twowat-binding/d9-twowat-binding.component';
 import { ToggleComponent } from './toggle.component';
+import { D10ViewChildComponent } from './d10-view-child/d10-view-child.component';
 
 @NgModule({
   declarations: [
@@ -22,6 +23,7 @@ import { ToggleComponent } from './toggle.component';
     UserItemComponent,
     D9TwowatBindingComponent,
     ToggleComponent,
+    D10ViewChildComponent,
   ],
   imports: [
     BrowserModule,
