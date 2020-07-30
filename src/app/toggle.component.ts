@@ -29,7 +29,7 @@ export class ToggleComponent implements OnChanges{
 
   onClick(){
     console.log('Clicked');
-    // this.checked = !this.checked;
-    this.checkChange.emit(!this.checked);
+    this.checked = !this.checked;
+    this.checkChange.emit(this.checked);
   }
 }
