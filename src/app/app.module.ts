@@ -12,6 +12,9 @@ import { UserItemComponent } from './users/user-item.component';
 import { D9TwowatBindingComponent } from './d9-twowat-binding/d9-twowat-binding.component';
 import { ToggleComponent } from './toggle.component';
 import { D10ViewChildComponent } from './d10-view-child/d10-view-child.component';
+import { D13ContentProjectionComponent } from './d13-content-projection/d13-content-projection.component';
+import { ExContentProjectionsComponent } from './common_components/ex-content-projections.component';
+
 
 @NgModule({
   declarations: [
@@ -24,6 +27,8 @@ import { D10ViewChildComponent } from './d10-view-child/d10-view-child.component
     D9TwowatBindingComponent,
     ToggleComponent,
     D10ViewChildComponent,
+    D13ContentProjectionComponent,
+    ExContentProjectionsComponent,
   ],
   imports: [
     BrowserModule,

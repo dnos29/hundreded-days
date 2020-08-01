@@ -1,0 +1,11 @@
+<p>d13-content-projection works!</p>
+<app-ex-content-projections>
+  <h3>Quiz</h3>
+  <span class="question">Question 1: When did French invaded VN?</span>
+  <span class="answer">Answer: 1. 1958</span>
+  <div class="actions">
+    <button>Submit</button>
+    <button>Skip</button>
+  </div>
+  <ng-container ngProjectAs="span.notice">Notice</ng-container>
+</app-ex-content-projections>

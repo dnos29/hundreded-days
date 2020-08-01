@@ -1,0 +1,14 @@
+<div class="header">
+  <ng-content select="h3"></ng-content>
+</div>
+<div class="square"></div>
+<div class="question">
+  <ng-content select="span.question, span.answer"></ng-content>
+</div>
+<div class="answer">
+  <ng-content select="span.answer"></ng-content>
+</div>
+<div class="actions">
+  <ng-content select="div.actions"></ng-content>
+</div>
+<i><ng-content select="span.notice"></ng-content></i>
